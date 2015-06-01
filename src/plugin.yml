@@ -1,0 +1,23 @@
+name: GoinRoundPlus
+version: 1.0.0
+main: src.john01dav.goinroundplus.GoinRoundPlus
+author: john01dav
+
+commands:
+  startcycle:
+    description: Starts a GoinRound cycle
+    permission: goinroundplus.start
+    aliases: ["startcirciut", "startloop"]
+  vanish:
+    description: Toggles the vanished state of the sender
+    permission: goinroundplus.vanish
+
+permissions:
+  goinroundplus.start:
+    default: op
+  goinroundplus.donotwatch:
+    default: op
+  goinroundplus.vanishbypass:
+    default: op
+  goinroundplus.vanish:
+    default: op
